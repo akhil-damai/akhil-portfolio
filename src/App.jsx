@@ -46,7 +46,7 @@ export default function AkhilDamaiPortfolio() {
       <section className="px-6 md:px-16 py-20 border-t border-zinc-800">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-14 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-6">About</h2>
+            <h2 className="text-4xl font-bold mb-6">About me</h2>
 
             <p className="text-zinc-300 text-lg leading-relaxed">
               Akhil Damai is focused on screenplay formatting, scene
