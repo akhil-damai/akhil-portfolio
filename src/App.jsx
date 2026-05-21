@@ -49,9 +49,10 @@ export default function AkhilDamaiPortfolio() {
             <h2 className="text-4xl font-bold mb-6">About me</h2>
 
             <p className="text-zinc-300 text-lg leading-relaxed">
-              Akhil Damai is focused on screenplay formatting, scene
-              structuring, dialogue writing, and cinematic storytelling. He has
-              worked on short film projects and screenplay execution while
+              I'm an aspiring filmaker currenty a student studying Btech 2nd year,
+              focused on screenplay formatting, scene
+              structuring, dialogue writing, and cinematic storytelling.
+              I worked on shortfilm projects and screenplay execution while
               exploring creative film production and script development.
             </p>
           </div>
