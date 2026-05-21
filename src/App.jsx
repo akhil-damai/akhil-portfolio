@@ -24,20 +24,30 @@ export default function AkhilDamaiPortfolio() {
             impactful visual narratives through scripts and filmmaking.
           </p>
 
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <a
-              href="tel:8340806273"
-              className="px-6 py-3 rounded-2xl border border-zinc-700 hover:bg-white hover:text-black transition-all duration-300"
-            >
-              📞 Contact
-            </a>
+          <div className="mt-10 flex flex-col items-center gap-5">
+            {/* Buttons */}
+            <div className="flex flex-wrap justify-center gap-4">
+              <a
+                href="tel:8340806273"
+                className="px-6 py-3 rounded-2xl border border-zinc-700 hover:bg-white hover:text-black transition-all duration-300"
+              >
+                📞 Contact
+              </a>
 
-            <a
-              href="mailto:Chandrudamai4@gmail.com"
-              className="px-6 py-3 rounded-2xl bg-white text-black hover:bg-zinc-300 transition-all duration-300"
-            >
-              ✉️ Email
-            </a>
+              <a
+                href="mailto:Chandrudamai4@gmail.com"
+                className="px-6 py-3 rounded-2xl bg-white text-black hover:bg-zinc-300 transition-all duration-300"
+              >
+                ✉️ Email
+              </a>
+            </div>
+
+            {/* Contact Info */}
+            <div className="text-zinc-400 text-sm md:text-base space-y-1">
+              <p>📞 8340806273</p>
+
+              <p>✉️ Chandrudamai4@gmail.com</p>
+            </div>
           </div>
         </div>
       </section>
@@ -49,11 +59,11 @@ export default function AkhilDamaiPortfolio() {
             <h2 className="text-4xl font-bold mb-6">About me</h2>
 
             <p className="text-zinc-300 text-lg leading-relaxed">
-              I'm an aspiring filmaker currenty a student studying Btech 2nd year,
-              focused on screenplay formatting, scene
-              structuring, dialogue writing, and cinematic storytelling.
-              I worked on shortfilm projects and screenplay execution while
-              exploring creative film production and script development.
+              I'm an aspiring filmaker currenty a student studying Btech 2nd
+              year, focused on screenplay formatting, scene structuring,
+              dialogue writing, and cinematic storytelling. I worked on
+              shortfilm projects and screenplay execution while exploring
+              creative film production and script development.
             </p>
           </div>
 
@@ -120,8 +130,8 @@ export default function AkhilDamaiPortfolio() {
 
               <div className="space-y-2 text-zinc-400 mb-8">
                 <p>
-                  <span className="text-white font-medium">Role:</span> Writer
-                  / Director / Actor
+                  <span className="text-white font-medium">Role:</span> Writer /
+                  Director / Actor
                 </p>
               </div>
 
@@ -172,9 +182,7 @@ export default function AkhilDamaiPortfolio() {
       {/* Script Sample */}
       <section className="px-6 md:px-16 py-20 border-t border-zinc-800 bg-zinc-950">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-12">
-            Script Formatting Sample
-          </h2>
+          <h2 className="text-4xl font-bold mb-12">Script Formatting Sample</h2>
 
           {/* Preview Card */}
           <div className="flex justify-center">
@@ -197,22 +205,17 @@ export default function AkhilDamaiPortfolio() {
                   View Full Script
                 </h3>
 
-                <p className="text-zinc-400 text-sm">
-                  Click to expand
-                </p>
+                <p className="text-zinc-400 text-sm">Click to expand</p>
               </div>
             </div>
           </div>
 
-          <p className="mt-8 text-zinc-500 text-sm">
-            © copyrighted akhildamai
-          </p>
+          <p className="mt-8 text-zinc-500 text-sm">© copyrighted akhildamai</p>
         </div>
 
         {/* Fullscreen Modal */}
         {showScript && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-md px-4">
-            
             {/* Close Button */}
             <button
               onClick={() => setShowScript(false)}
